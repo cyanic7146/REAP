@@ -14,6 +14,12 @@ public class PlayerStats : MonoBehaviour
     public float income = 0f;
     public float expenses = 0f;
     public float inflation = 1.025f;
+    public float rent = 0f;
+    public float food = 0f;
+    public float transportation = 0f;
+    public float entertainment = 0f;
+    public float utilities = 0f;
+    public float collegetuition = 0f;
 
     void Awake()
     {

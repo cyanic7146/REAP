@@ -1,9 +1,0 @@
-<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/GameHUD.uss?fileID=7433441132597879392&amp;guid=c5459e7f3dea04a74804ca0b57ed0489&amp;type=3#GameHUD" />
-    <ui:VisualElement style="flex-grow: 1;">
-        <ui:Label text="Label" name="ageLabel" />
-        <ui:Label text="Label" name="moneyLabel" />
-        <ui:Label text="Label" name="debtLabel" />
-        <ui:Label text="Label" name="creditScoreLabel" />
-    </ui:VisualElement>
-</ui:UXML>

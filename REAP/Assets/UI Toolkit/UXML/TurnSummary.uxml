@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="YearlySummaryContainer" class="summary-container">
+        <ui:Label name="yearLabel" text="Year 1 Summary" class="year-header" />
+        <ui:VisualElement name="RecapSection" class="recap-section">
+            <ui:Label name="recapLabel" text="Recap Text..." class="recap-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="InvestmentSection" class="investment-section">
+            <ui:Label name="investmentLabel" text="Investment Results..." class="investment-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="NewsSection" class="news-section">
+            <ui:Label name="newsLabel" text="World News..." class="news-label" />
+        </ui:VisualElement>
+        <ui:VisualElement name="StatChangeSection" class="stat-section">
+            <ui:Label name="statChangeLabel" text="Stat Changes..." class="stat-change-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
