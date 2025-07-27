@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class TurnManager : MonoBehaviour
@@ -6,6 +7,7 @@ public class TurnManager : MonoBehaviour
     {
 
         PlayerStats.Instance.age += 1;
+        PlayerStats.Instance.year += 1;
 
         PlayerStats.Instance.debt += PlayerStats.Instance.debt * 1.06f;
 
@@ -16,10 +18,8 @@ public class TurnManager : MonoBehaviour
         Debug.Log("A year has passed, you are now " + PlayerStats.Instance.age);
     }
 
-    void totalExpenses()
+    public float inflationThisYear()
     {
-        PlayerStats.Instance.expenses = PlayerStats.Instance.rent + PlayerStats.Instance.food + PlayerStats.Instance.transportation + PlayerStats.Instance.entertainment + PlayerStats.Instance.utilities;
-
-        Debug.Log("Total expenses for the year: " + PlayerStats.Instance.expenses);
+        return (float)Math.Pow(PlayerStats.Instance.inflation, PlayerStats.Instance.year - 1);
     }
 }

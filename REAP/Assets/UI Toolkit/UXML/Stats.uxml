@@ -1,17 +1,11 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/USS/Stats.uss?fileID=7433441132597879392&amp;guid=c5459e7f3dea04a74804ca0b57ed0489&amp;type=3#Stats" />
-    <ui:VisualElement name="StatsContainer" class="stats-hidden" style="flex-grow: 1; position: absolute;">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/PixelFonts.uss?fileID=7433441132597879392&amp;guid=717e0304afcb6a442b5b48145369546e&amp;type=3#PixelFonts" />
+    <ui:VisualElement name="StatsContainer" class="stats-hidden" style="flex-grow: 1; position: absolute; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;);">
         <ui:Label text="Age :  18" name="ageLabel" />
         <ui:Label text="Money : $0.00" name="moneyLabel" enable-rich-text="true" />
         <ui:Label text="Debt : $0.00&#10;" name="debtLabel" style="height: 25px;" />
         <ui:Label text="Credit Score : 700" name="creditScoreLabel" />
     </ui:VisualElement>
-    <ui:Button text="ShowStats" name="statsButton" class="statsButton" />
-    <ui:VisualElement name="SettingsContainer" style="flex-grow: 1;">
-        <ui:Button text="Button" />
-        <ui:Button text="Button" />
-        <ui:Button text="Button" />
-        <ui:Button text="Button" />
-    </ui:VisualElement>
-    <ui:Button text="ScreenSize" name="screenSizeButton" parse-escape-sequences="false" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; font-size: 12px; padding-top: 6px; padding-right: 8px; padding-bottom: 6px; padding-left: 8px; position: absolute; top: 149px; left: 236px;" />
+    <ui:Button text="ShowStats" name="statsButton" class="statsButton pixel-text" style="-unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); font-size: 36px; padding-top: 18px; padding-right: 18px; padding-bottom: 18px; padding-left: 18px; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px;" />
 </ui:UXML>

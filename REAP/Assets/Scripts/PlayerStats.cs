@@ -20,6 +20,8 @@ public class PlayerStats : MonoBehaviour
     public float entertainment = 0f;
     public float utilities = 0f;
     public float collegetuition = 0f;
+    public float inflationThisYear = 1.025f;
+    public int year = 0;
 
     void Awake()
     {
