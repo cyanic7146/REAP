@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" class="root">
+        <ui:Label text="Stock Market" class="title" />
+        <ui:VisualElement class="main-content">
+            <ui:ScrollView name="stockList" class="stock-list" />
+            <ui:VisualElement name="companyDetails" class="company-details">
+                <ui:Label name="companyName" />
+                <ui:Label name="currentPrice" />
+                <ui:Button name="buyButton" text="Buy" />
+                <ui:Button name="sellButton" text="Sell" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="portfolioPanel" class="portfolio" />
+    </ui:VisualElement>
+</ui:UXML>

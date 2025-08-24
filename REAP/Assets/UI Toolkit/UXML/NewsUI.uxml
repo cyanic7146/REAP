@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/NewsUI.uss?fileID=7433441132597879392&amp;guid=5af36ab152f64e84cbc7c7b01ed2534d&amp;type=3#NewsUI" />
+    <ui:VisualElement name="MainContainer" class="main-container" style="height: 100%; width: 100%;">
+        <ui:VisualElement name="NavContainer" class="nav-container">
+            <ui:Button name="FinanceButton" text="Finance News" class="nav-button" />
+            <ui:Button name="CompanyButton" text="Company News" class="nav-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ContentContainer" class="content-container" style="-unity-text-align: upper-center;">
+            <ui:VisualElement name="FinancePage" class="page">
+                <ui:ScrollView>
+                    <ui:Label name="SummaryLabel" text="Generating yearly summary..." />
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement name="CompanyPage" class="page">
+                <ui:Label text="Company news and updates will be displayed here." />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
